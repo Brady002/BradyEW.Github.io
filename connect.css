@@ -1,0 +1,31 @@
+﻿body
+{
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 630px;
+    width: 700px;
+}
+
+.grid div {
+    height: 90px;
+    width: 90px;
+    border: 1px dashed;
+}
+
+.taken {
+    background-color: black;
+}
+
+.player-one {
+    background-color: magenta;
+    border-radius: 50%;
+    border: solid;
+}
+
+.player-two {
+    background-color: lightcoral;
+    border-radius: 50%;
+}
