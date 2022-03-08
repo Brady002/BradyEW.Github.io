@@ -40,7 +40,8 @@ function countDown() {
 
     if (currentTime === 0) {
         clearInterval(timerId);
-        alert('They had families you know... ' + result + ' funerals will be held')
+        alert('They had families you know... ' + result + ' funerals will be held');
+        currentTime = 60;
     }
 }
 
