@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     for (var i = 0; i < squares.length; i++) {
         testClick(i);
+        checkWin(i);
     }
 
     function testClick(index) {
@@ -32,7 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
+
+    function checkWin(index) {
+    }
 })
+
 
 
 
